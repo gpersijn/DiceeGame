@@ -17,16 +17,11 @@ function rollDices(){
     }
 }
 
-function checkRefresh() {
-    if (!sessionStorage.getItem("rollDice")) {
-        sessionStorage.setItem("rollDice", "extra");
 
-    } else {
-       rollDices();
-    }
+if (performance.getEntriesByType("navigation")[0].type === "reload") {
+    rollDices();
 }
 
-document.querySelector("body").onload = checkRefresh();
 
    
 
