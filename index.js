@@ -19,12 +19,11 @@ function rollDices(){
 
 function checkRefresh() {
     if (!sessionStorage.getItem("rollDice")) {
-        sessionStorage.setItem("rollDice", "extra")
+        sessionStorage.setItem("rollDice", "extra");
 
-    } else(
-       rollDices()
-    )
-   
+    } else {
+       rollDices();
+    }
 }
 
 document.querySelector("body").onload = checkRefresh();
