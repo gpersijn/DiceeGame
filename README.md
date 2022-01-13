@@ -17,7 +17,7 @@
 
 ***
 
-Teste o jogo: https://gpersijn.github.io/DiceeGame/
+Teste o jogo atualizando a página para uma nova rodada: https://gpersijn.github.io/DiceeGame/
 
 
 
